@@ -55,14 +55,8 @@ export default async function request(url, options) {
     };
   }
   const data = await response.json();
-  if (data.code !== '200' && data.code !== '46') {
+  if (data.code !== '200') {
     message.error(data.msg);
-    // 登录超时，跳转至登录页
-    if (data.code === '70201131') {
-      window.location = `http://${
-        window.location.host
-      }/index.html#/system/cloud/home`;
-    }
   }
   return data;
 }

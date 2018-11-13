@@ -1,5 +1,5 @@
-# Version 0.2
-[Change log](https://github.com/ali-kos/kos-scaffold-desktop1-javascript/blob/master/CHANGE_LOG.md)
+# Version 0.3
+[Change log](https://github.com/ali-kos/kos-scaffold-desktop1-javascript/blob/master/CHANGELOG.md)
 
 # Commands
 
