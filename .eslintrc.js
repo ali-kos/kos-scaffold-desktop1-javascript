@@ -48,6 +48,7 @@ module.exports = {
       },
     ],
     'import/extensions': 0,
+    "import/no-unresolved": 0,
     'no-console': 'off',
     'no-restricted-syntax': 0,
     'no-useless-constructor': 0,

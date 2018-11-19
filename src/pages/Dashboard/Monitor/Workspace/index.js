@@ -42,25 +42,25 @@ class Workspace extends React.Component {
     // const { title, dispatch } = this.props;
     return (
       <Form name="addForm" onSubmit={formData => this.submitForm(formData)}>
-        <Field label="页面名称：" field="page_name">
+        <Field label="Page Name：" field="page_name">
           <Input
             onChange={() => {
               console.log('onChange');
             }}
           />
         </Field>
-        <Field label="页面类型：" field="page_type">
+        <Field label="Page Type：" field="page_type">
           <RadioGroup>
             <RadioButton value="pc">PC</RadioButton>
             <RadioButton value="h5">H5</RadioButton>
           </RadioGroup>
         </Field>
-        <Field label="说明：" field="page_desc">
+        <Field label="Desc：" field="page_desc">
           <Input.TextArea rows={4} />
         </Field>
         <ToolbarField>
           <Button type="primary" htmlType="submit">
-            新增
+            add
           </Button>
         </ToolbarField>
       </Form>

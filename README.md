@@ -2,6 +2,10 @@
 
 [Change log](https://github.com/ali-kos/kos-scaffold-desktop1-javascript/blob/master/CHANGELOG.md)
 
+# IMPORTANT
+
+DO NOT CHANGE FILE `package.json` OR DELETE IT.
+
 # Commands
 
 developing:

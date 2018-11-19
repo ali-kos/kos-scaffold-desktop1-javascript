@@ -26,8 +26,8 @@ export default {
 
       if (data.ok) {
         notification.success({
-          message: '恭喜您！',
-          description: '添加成功！',
+          message: 'Congratulation！',
+          description: 'add successful！',
         });
         // history.push('/dashboard/monitor');
       }
@@ -47,7 +47,7 @@ export default {
             'required',
             // (getState, { field, value }, data) => value && value.length <= 3,
           ],
-          help: '请正确填写',
+          help: 'please correctly fill in the area!',
         },
         {
           field: 'page_name',
@@ -62,7 +62,7 @@ export default {
         },
         {
           field: 'page_name',
-          help: '异步校验失败',
+          help: 'Asynchronous validation failed!',
           rules: {
             data: { a: 1 },
             fn: async (getState, { field, value }, data) => {
